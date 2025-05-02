@@ -1,12 +1,17 @@
-# State Library of Victoria
+# state-library-victoria
 
-Jupyter notebooks to work with collection data from the State Library of Victoria.
+Tools and resources for working with data from the State Library of Victoria.
 
-Run the notebooks in this repository live on MyBinder — just click the button (it might take a little while to load).
+For more information and documentation see the [State Library of Victoria](https://glam-workbench.net/state-library-victoria) section of the [GLAM Workbench](https://glam-workbench.net).
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/GLAM-Workbench/state-library-victoria/master)
+## Notebooks
+- [Download an image using the IIIF server and a Handle url](https://github.com/GLAM-Workbench/state-library-victoria/blob/master/download_image_from_iiif.ipynb)
+- [More fun with IIIF](https://github.com/GLAM-Workbench/state-library-victoria/blob/master/more_fun_with_iiif.ipynb)
+
+
+<!-- START RUN INFO -->
+
+<!-- END RUN INFO -->
 
 ----
-
-See the [GLAM Workbench documentation](https://glam-workbench.github.io/) for more details.  
-If you think this project is worthwhile, you might like [to support me on Patreon](https://www.patreon.com/timsherratt).
+Created by [Tim Sherratt](https://timsherratt.au) for the [GLAM Workbench](https://glam-workbench.net)

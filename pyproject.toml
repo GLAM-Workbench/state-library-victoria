@@ -1,0 +1,8 @@
+[tool.nbqa.addopts]
+flake8 = [
+    "--ignore=E501,W503,E402"
+]
+[tool.pytest.ini_options]
+addopts = "--ignore-glob=Untitled* --ignore=snippets.ipynb --ignore-glob=draft*"
+[tool.isort]
+profile = "black"

@@ -1,0 +1,18 @@
+-c requirements.txt
+pytest
+nbval
+black[jupyter]
+isort
+flake8
+nbqa
+pre-commit
+rdflib
+rocrate
+giturlparse
+requests
+python-dotenv
+jupyterlab-code-formatter
+PyGithub
+GitPython
+beautifulsoup4
+lxml
