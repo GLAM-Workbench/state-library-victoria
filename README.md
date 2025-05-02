@@ -1,5 +1,7 @@
 # state-library-victoria
 
+CURRENT VERSION: v1.0.0
+
 Tools and resources for working with data from the State Library of Victoria.
 
 For more information and documentation see the [State Library of Victoria](https://glam-workbench.net/state-library-victoria) section of the [GLAM Workbench](https://glam-workbench.net).
