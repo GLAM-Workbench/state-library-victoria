@@ -29,7 +29,7 @@
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2025-04-27",
+  "publication_date": "2025-05-02",
   "creators": [
     {
       "name": "Sherratt, Tim",
@@ -37,5 +37,5 @@
     }
   ],
   "access_right": "open",
-  "description": "<p>CURRENT VERSION: v1.0.0</p> <p>Tools and resources for working with the Public Record Office Victoria’s collection API.</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/prov\">Public Record Office Victoria</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Getting started with the PROV API</li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
+  "description": "<p>CURRENT VERSION: v1.0.0</p> <p>Tools and resources for working with data from the State Library of Victoria.</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/state-library-victoria\">State Library of Victoria</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Download an image using the IIIF server and a Handle url</li> <li>More fun with IIIF</li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
 }
