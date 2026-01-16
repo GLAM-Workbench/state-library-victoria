@@ -1,20 +1,17 @@
 {
     "@context": "https://w3id.org/ro/crate/1.1/context",
-    "@graph":
-    [
+    "@graph": [
         {
             "@id": "./",
             "@type": "Dataset",
-            "author":
-            [
+            "author": [
                 {
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2025-05-02",
+            "datePublished": "2026-01-16",
             "description": "Tools and resources for working with data from the State Library of Victoria.",
-            "hasPart":
-            [
+            "hasPart": [
                 {
                     "@id": "download_image_from_iiif.ipynb"
                 },
@@ -25,123 +22,103 @@
                     "@id": "get_marc_data.ipynb"
                 }
             ],
-            "license":
-            {
+            "license": {
                 "@id": "https://spdx.org/licenses/MIT"
             },
-            "mainEntityOfPage":
-            {
+            "mainEntityOfPage": {
                 "@id": "https://glam-workbench.net/state-library-victoria"
             },
             "name": "state-library-victoria",
             "url": "https://github.com/GLAM-Workbench/state-library-victoria/",
-            "version": "v1.0.0"
+            "version": "v1.1.0"
         },
         {
             "@id": "ro-crate-metadata.json",
             "@type": "CreativeWork",
-            "about":
-            {
+            "about": {
                 "@id": "./"
             },
-            "conformsTo":
-            {
+            "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
             },
-            "license":
-            {
+            "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             }
         },
         {
             "@id": "download_image_from_iiif.ipynb",
-            "@type":
-            [
+            "@type": [
                 "File",
                 "SoftwareSourceCode"
             ],
-            "author":
-            [
+            "author": [
                 {
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
             "codeRepository": "https://github.com/GLAM-Workbench/state-library-victoria/",
-            "conformsTo":
-            {
+            "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
             "description": "The State Library of Victoria uses the Handle system to create persistent urls for images, and IIIF to deliver the images for use. This notebook uses the Handle url to find an image's IIIF identifier, and then uses IIIF to download the image.",
             "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage":
-            {
+            "mainEntityOfPage": {
                 "@id": "https://glam-workbench.net/state-library-victoria/download_image_from_iiif/"
             },
             "name": "Download an image using the IIIF server and a Handle url",
-            "programmingLanguage":
-            {
+            "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
             "url": "https://github.com/GLAM-Workbench/state-library-victoria/blob/master/download_image_from_iiif.ipynb"
         },
         {
             "@id": "more_fun_with_iiif.ipynb",
-            "@type":
-            [
+            "@type": [
                 "File",
                 "SoftwareSourceCode"
             ],
-            "author":
-            [
+            "author": [
                 {
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
             "codeRepository": "https://github.com/GLAM-Workbench/state-library-victoria/",
-            "conformsTo":
-            {
+            "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
             "description": "The State Library of Victoria displays many of its digitised images using the IIIF standard. This notebook shows how you can use IIIF to manipulate images from the SLV collection.",
             "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage":
-            {
+            "mainEntityOfPage": {
                 "@id": "https://glam-workbench.net/state-library-victoria/more_fun_with_iiif/"
             },
             "name": "More fun with IIIF",
-            "programmingLanguage":
-            {
+            "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
             "url": "https://github.com/GLAM-Workbench/state-library-victoria/blob/master/more_fun_with_iiif.ipynb"
         },
         {
             "@id": "get_marc_data.ipynb",
-            "@type":
-            [
+            "@type": [
                 "File",
                 "SoftwareSourceCode"
             ],
-            "author":
-            [
+            "author": [
                 {
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
             "codeRepository": "https://github.com/GLAM-Workbench/state-library-victoria/",
-            "conformsTo":
-            {
+            "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
             "description": "If you have an item's Alma identifier, you can retrieve structured metadata describing the item from the SLV catalogue in a couple of ways. One approach is to download a text representation of the item's MARC record and extract data from it. This notebook provides some examples of how you can do this.",
             "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage":
-            {
+            "mainEntityOfPage": {
                 "@id": "https://glam-workbench.net/state-library-victoria/get_marc_data/"
             },
             "name": "Access MARC data describing an item in the SLV catalogue",
-            "programmingLanguage":
-            {
+            "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
             "url": "https://github.com/GLAM-Workbench/state-library-victoria/blob/master/get_marc_data.ipynb"
@@ -149,8 +126,7 @@
         {
             "@id": "https://glam-workbench.net/state-library-victoria",
             "@type": "CreativeWork",
-            "isPartOf":
-            {
+            "isPartOf": {
                 "@id": "https://glam-workbench.net/"
             },
             "name": "State Library of Victoria",
@@ -159,8 +135,7 @@
         {
             "@id": "https://glam-workbench.net/",
             "@type": "CreativeWork",
-            "author":
-            [
+            "author": [
                 {
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
@@ -204,8 +179,7 @@
         },
         {
             "@id": "https://www.python.org/downloads/release/python-31012/",
-            "@type":
-            [
+            "@type": [
                 "ComputerLanguage",
                 "SoftwareApplication"
             ],
@@ -216,8 +190,7 @@
         {
             "@id": "https://glam-workbench.net/state-library-victoria/download_image_from_iiif/",
             "@type": "CreativeWork",
-            "isPartOf":
-            {
+            "isPartOf": {
                 "@id": "https://glam-workbench.net"
             },
             "name": "Download an image using the IIIF server and a Handle url",
@@ -226,8 +199,7 @@
         {
             "@id": "https://glam-workbench.net/state-library-victoria/more_fun_with_iiif/",
             "@type": "CreativeWork",
-            "isPartOf":
-            {
+            "isPartOf": {
                 "@id": "https://glam-workbench.net"
             },
             "name": "More fun with IIIF",
@@ -236,8 +208,7 @@
         {
             "@id": "create_version_v1_0_0",
             "@type": "UpdateAction",
-            "actionStatus":
-            {
+            "actionStatus": {
                 "@id": "http://schema.org/CompletedActionStatus"
             },
             "endDate": "2025-05-02",
@@ -246,12 +217,20 @@
         {
             "@id": "https://glam-workbench.net/state-library-victoria/get_marc_data/",
             "@type": "CreativeWork",
-            "isPartOf":
-            {
+            "isPartOf": {
                 "@id": "https://glam-workbench.net"
             },
             "name": "Access MARC data describing an item in the SLV catalogue",
             "url": "https://glam-workbench.net/state-library-victoria/get_marc_data/"
+        },
+        {
+            "@id": "create_version_v1_1_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2026-01-16",
+            "name": "Create version v1.1.0"
         }
     ]
 }
